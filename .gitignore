@@ -1,20 +1,8 @@
-.DS_Store
-log/**/*
-tmp/**/*
-vendor/gems/*
-vendor/bundle/*
-!vendor/gems/cache/
-.sass-cache/*
-db/*.db
-.bundle
-
-# rvm
-.rvmrc
-
-# rbenv
-.rbenv-version
-.rbenv-gemsets
-.ruby-version
-
-# pow
-.powrc
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+*.gem
+*.log

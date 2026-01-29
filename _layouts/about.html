@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% include sidebar.html %}
+
+<header class="about-header">
+  <h1 id="top">Ruby Kaja {{ page.year }}</h1>
+</header>
+
+<section class="entry-contents contents">
+  <h2><a href="{{ '/' | append: page.year | append: '/kaja' | relative_url }}">Ruby Kaja {{ page.year }} 受賞者</a></h2>
+</section>
+
+{% if page.communities %}
+<section class="community-list contents">
+  <h1 id="community-list">参加コミュニティ</h1>
+  <ul>
+    {% for community in page.communities %}
+    <li><a href="#community_{{ forloop.index0 }}">{{ community.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <table>
+    {% for community in page.communities %}
+    <tr id="community_{{ forloop.index0 }}">
+      <th>{{ community.name }}</th>
+      <td>{{ community.description | newline_to_br }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endif %}
+
+<section class="committee-contents contents">
+  <h1 id="committee">Ruby Kaja {{ page.year }} 運営委員</h1>
+  <p>日本 Ruby の会の活動の一環として有志によって運営されています。</p>
+  <ul>
+    {% for member in page.committee %}
+    <li>
+      <address>
+        <span class="label">{{ member.role }}</span>：{{ member.name }}
+      </address>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{{ content }}

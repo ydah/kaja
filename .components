@@ -1,9 +1,0 @@
----
-:orm: none
-:test: rspec
-:mock: none
-:script: jquery
-:renderer: slim
-:stylesheet: scss
-:namespace: Kaja
-:migration_format: number

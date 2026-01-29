@@ -10,8 +10,7 @@ layout: default
 
 <section class="contents">
   <ul id="KajaContainer">
-    {% assign data_key = 'nominees_' | append: page.year %}
-    {% assign nominees = site.data[data_key] %}
+    {% assign nominees = site.data.nominees[page.year] %}
     {% if nominees and nominees.size > 0 %}
       {% assign sorted_nominees = nominees | sort: 'community' %}
       {% for nominee in sorted_nominees %}

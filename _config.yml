@@ -3,7 +3,7 @@ description: Ruby Kaja is a title to recognize people who have contributed to Ru
 url: https://kaja.rubyist.net
 baseurl: ""
 
-current_year: "2014"
+current_year: "2015"
 
 exclude:
   - Gemfile

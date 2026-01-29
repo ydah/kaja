@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'ja' }}">
 <head>
-  <meta charset="UTF-8">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=800">
-  <link rel="icon" href="{{ '/favicon-x16.png' | relative_url }}" sizes="16x16" type="image/png">
-  <link rel="icon" href="{{ '/favicon-x32.png' | relative_url }}" sizes="32x32" type="image/png">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="all">
-  {% seo %}
+  {% include head.html %}
 </head>
 <body id="{{ page.body_id | default: 'Page' }}">
   <div class="bg-kumo"></div>
@@ -16,16 +9,6 @@
   <div id="Container">
     {{ content }}
   </div>
-  <div id="ie_container">
-    <strong>ブラウザとして認識できませんでした。</strong>
-    <p>Google Chromeとかでみてください。</p>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="{{ "/assets/js/jquery.js" | relative_url }}"><\/script>')</script>
-  {% if page.extra_js %}
-  {% for js in page.extra_js %}
-  <script src="{{ '/assets/js/' | append: js | append: '.js' | relative_url }}"></script>
-  {% endfor %}
-  {% endif %}
+  {% include footer.html %}
 </body>
 </html>

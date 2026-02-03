@@ -1,0 +1,376 @@
+---
+- name: Michiaki Ariga
+  github: chezou
+  twitter: chezou
+  image: chezou
+  profile: |-
+    kawasaki.rbの発起人。
+
+    Machine Learning Casual Talksの主催やJuliaTokyoの共同主催も行い、機械学習や自然言語処理などに興味を持つ。
+    しばらくRubyでの機械学習を盛り上げようと考えていたが、最近はPython一辺倒なのが嫌でJuliaを盛り上げようとしている。
+  supplement: 来年1/17の神奈川Ruby会議も頑張ります!
+  community: kawasaki.rb
+  description: ''
+  judged_by: |-
+    disqusで推薦者を募集し、得票の多かった者をKajaとして選出しました。
+    http://kawasakirb.github.io/kawasakirb/2014/07/26/kawasakirb-014--kaja-kwskrb/
+  reason_for: '"Kawasaki.rb といいつつ Ruby 以外の言語 (主に Python) の発表をふんだんに織り交ぜ、そのすばらしさを語る
+    (ことで Ruby の現状を再確認し、開発方針に示唆を与えてくれる) という活動を行い、川崎におけるプログラミング言語コミュニティの発展に貢献してくれているため。"  by
+    mameさん'
+  comment: 地域柄か仕事ではなく趣味のRubyistが多いですが、Jekyllのドキュメント翻訳のリーダーやBestGems.orgの作者など、精力的に活動しているメンバーも多く、Rubyの楽しさを少しずつ広めています。
+  id: chezou
+- name: 深谷淳
+  github: fukajun
+  twitter: fukajun
+  image: fukajun
+  profile: Sendagaya.rbファウンダーの1人、最近はもっぱら参加者としてSendagaya.rbらしさを模索しながらコミュニティーの雰囲気作りに力を入れてます。オーマイグラス株式会社所属のRailsエンジニア
+  supplement: ''
+  community: Sendagaya.rb
+  description: ''
+  judged_by: Sendagaya.rb開催時に、参加者での話し合いによって選出しました。
+  reason_for: Sendagaya.rbのファウンダー・オーガナイザーとして、発足から2年以上勉強会をリードし、東京Ruby会議10でコミュニティについての発表を行うなど、コミュニティ活動を盛り上げていること。
+  comment: |-
+    Sendagaya.rbは、誰でも気軽に参加できるゆるふわコミュニティ。
+    隔週月曜日に最近のホットなことについてトークしたり、Ruby, Railsなどについて相談したり、興味あることについて作業したりする勉強会です。
+    http://sendagayarb.doorkeeper.jp/
+  id: fukajun
+- name: 郡司　啓
+  github: gunjisatoshi
+  twitter: gunjisatoshi
+  image: gunjisatoshi
+  profile: ふつうのるびま編集者。
+  supplement: ここ数号は本業が忙しくあまり編集に関われていなかったので、Kaja として選定いただいたのは恐縮なのですが、「もっと頑張れ」との声と受け止めありがたく拝命いたします。皆様におかれましては今後とも引き続き
+    Rubyist Magazine をご愛顧いただけると幸いです。
+  community: るびま編集コミュニティ
+  description: ''
+  judged_by: るびまの編集にアクティブに関わっている人をコミュニティメンバーが推薦し、最も多くの賛同を得た人をKajaに選定する。
+  reason_for: Rubyist Magazine 編集活動への継続的な貢献を評価し Kaja として選定した。
+  comment: Rubyist Magazine では、記事と編集者を切実に切実に募集しております。
+  id: gunjisatoshi
+- name: ひがきまさる
+  github: higaki
+  twitter: higaki
+  image: higaki
+  profile: ねこ好きのおっさん
+  supplement: おやつの差し入れなら任せろ
+  community: Ruby関西
+  description: ''
+  judged_by: Ruby関西のスタッフが投票して決定しました。
+  reason_for: Ruby関西の勉強会では鉄板である「初級者レッスン」を2年半以上に渡って担当しており、勉強会、関西Ruby会議をスタッフとしても支え続けてきているから。
+  comment: |-
+    関西ではここ数年たくさん Ruby コミュニティが誕生しています。
+    Ruby 関西は、関西での Ruby コミュニティの老舗として初めての人が入りやすく、
+    そして地域ごとの Ruby コミュニティ、また Ruby に限らず
+    他のコミュニティとの間を結び付けるハブの役割を目指しています。
+    みなさん、お気軽にご参加ください！
+    GitHub: https://github.com/rubykansai/workshops/wiki
+    Doorkeeper: https://github.com/rubykansai/workshops/wiki
+  id: higaki
+- name: 山本悠滋 (Yuji Yamamoto)
+  github: igrep
+  twitter: igrep
+  image: igrep
+  profile: |-
+    RubyとHaskellが好きなSansan株式会社のRailsエンジニア。
+    名刺管理アプリEightのサーバサイドを担当。
+
+    Yokohama.rbのRubyレシピブック読書会にて永らく司会兼ライブコーディングを担当しつつ、最近は打倒RSpecを目指して日夜電車コーディングに励んでおります。
+    レシピブック読書会をもっと楽しくする方法を募集中です！
+  supplement: ''
+  community: Yokohama.rb
+  description: ''
+  judged_by: Yokohama.rbの参加者から選出されたKaja候補を投票により決定
+  reason_for: Rubyレシピブック読書会のファシリテーションを年単位で実施しており、Yokohama.rbの活性化に貢献した。
+  comment: 毎月第二土曜日の夜に横浜周辺で開催しているコミュニティ。初心者から上級者までワイワイ賑やかに活動を行っています。
+  id: igrep
+- name: カキギカツユキ
+  github: k2works
+  twitter: k2works
+  image: k2works
+  profile: |-
+    学生時代：プログラマアルバイト
+    社会人前半：SE
+    社会人現在：事業会社の社内システム企画・運営
+  supplement: 事業会社にてビジネスとIT開発・運用の高度な融合に挑戦中です。
+  community: Hiroshima.rb
+  description: ''
+  judged_by: Hiroshima.rb 内で候補者を出し、投票で決定しました。
+  reason_for: |-
+    広島での活動がめざましく、リーン、スクラムなどの発表を多くこなす。
+    ここ最近の内容の濃い入門記事がGitHubで公開され評価されている点が、みんなに支持されたため。
+  comment: 毎月2回 第1、3木曜日にコワーキングスペースに集まって情報交換などをしています。初心者の方がいらしゃっればやさしく教え、手馴れている方が集まれば濃い目の話をしていたりします。
+  id: k2works
+- name: 山本 和久
+  github: kazuhisa
+  twitter: kazuhisa1976
+  image: kazuhisa
+  profile: |-
+    岡山「たのしいRuby」読書会主催
+    岡山Ruby、Ruby on Rails勉強会副代表
+
+    岡山Ruby ,Ruby on Railsを立ち上げの頃から今に至るまで育て上げた中心メンバーの１人。
+    今日の岡山のRuby勉強会の盛り上がりを作ったのは彼の功績と言っても過言ではない。
+    去年より、岡山「たのしいRuby」読書会主催しており、後進の育成に精力的に活動している。
+  supplement: ''
+  community: 岡山「たのしいRuby」読書会
+  description: ''
+  judged_by: コミュニティ参加者による多数決
+  reason_for: |-
+    岡山「たのしいRuby」読書会を主催し、会の運営に尽力している。
+    有識者として解説を行なっている。
+  comment: |-
+    月１回のペースで『楽しいRuby』の読書会を行なっています。
+    章毎に分からなかった部分や掘り下げたい部分を議論したり、有識者が解説してたりしています。
+    Ruby初心者でも、参加しやすい勉強会になっています。
+  id: kazuhisa
+- name: 栗原 勇樹
+  github: ksss
+  twitter: _ksss_
+  image: ksss
+  profile: https://github.com/ksss
+  supplement: 新婚さんです♥
+  community: Asakusa.rb
+  description: ''
+  judged_by: https://github.com/
+  reason_for: https://github.com/mruby/mruby/commits/master?author=ksss
+  comment: 毎週火曜日にmeetupやってます。
+  id: ksss
+- name: ヽ（´・肉・｀）ノ (にく)
+  github: niku
+  twitter: niku_name
+  image: niku
+  profile: |-
+    るびまの(幽霊)編集部員をしたり，Rubykaigi2013 で gihyo.jp さんのレポートを書いたり，Emacs と Ruby で仕事をしたりしています．
+
+    個人的に興味のある Erlang 周りや，全然関係ないそれ以外のことをして楽しむ sapporo.beam という集まりを札幌やインターネット上で大体毎週木曜日にやってます．
+
+    ErlangVM 上で動く Ruby 風の記述ができる言語 Elixir についてたぶん日本で 30 番目くらいに詳しい男．
+  supplement: |-
+    コードを書くことが今のところそんなに上手ではなくても，「るびま」や「るりま」といった場所で日本語や英語を操ったり，みんなが集まれる場所をただ用意するだけでも Ruby への恩返しになるみたい．
+    みんなも軽い気持でちょっとだけ試してみるといいんじゃないかなあ．
+  community: Ruby札幌
+  description: ''
+  judged_by: Ruby札幌ではコードでRubyコミュニティに貢献している人が第一に評価されると良いなと考えており、そうした方を Kaja として選定しています(が、今年は例外的に継続的な活動を評価する年になりました）。
+  reason_for: Sapporo.beam ( http://sapporo-beam.github.io/ ) といった活動をしっかりとつづけたりしていて、界隈のひとたちが集まるきっかけをつくっていることに敬意を表して。
+  comment: |-
+    札幌にて Ruby に関する活動を行っているコミュニティです。
+    Ruby勉強会＠札幌などのイベントを不定期に開催しています。
+  id: niku
+- name: 小西 雅也
+  github: ore-public
+  twitter: ore_public
+  image: ore-public
+  profile: Okayama.rb 主催
+  supplement: ''
+  community: Okayama.rb
+  description: ''
+  judged_by: コミュニティ参加者による多数決
+  reason_for: Okayama.rbの立ち上げと主催をやっている。
+  comment: |-
+    週１回、ハンバーグを食べながらマイペースにワイワイやってます。
+    幅広い年代が参加しています。
+    Rubyで困ったことがあれば気軽に相談できる場になってます。
+  id: ore-public
+- name: 小田切わか菜
+  github: publichtml
+  twitter: publichtml
+  image: publichtml
+  profile: |-
+    RailsGirlsTokyo, More! の会場係(たまにコーチ)。RailsGirlsTokyo 本編にも主にスタッフとして参加。普段はRailsエンジニア。
+
+    何となく就職したメーカーでたまたま Web 開発の部署に配属され、プログラミングと勉強会にはまる。いくつものコミュニティをのぞいたうち、Rubyコミュニティのふところの深さにひかれ、本格的に住みつこうと株式会社万葉の門を叩く。
+
+    好きな言葉は疎結合。
+  supplement: RailsGirlsTokyo, More! は Rails を学びたい Girls と、Girlsと同じ速さでゆっくり歩いてくれるコーチをいつでもお待ちしております！
+  community: RailsGirls, More!
+  description: ''
+  judged_by: 今回のKajaの選定は、RailsGirls, More!用FBグループ内で他薦を募り、これはと思う推薦に「イイネ！」をつけてもらう方式としました。もっとも「イイネ！」がついた方をKajaとして選出しています。
+  reason_for: 継続することの力はコミュニティの核です。小田切さんは、ほぼ月一回Moreの参加者日程調整、超えがけ、会場準備までを強い責任感と面倒見の良さで続けてきました。いまのRailsGirls,
+    More! があるのは小田切さんのおかげです。その尽力に感謝し、顕彰の場をいただいきたく、Kajaに選出させていただきました。
+  comment: RailsGirls, More!は日本のRailsGirls参加者、あるはRailsでアプリケーションを作りたい女性を対象とした勉強会グループです。興味のある方はKajaにお声がけを！
+  id: publichtml
+- name: 橋本将
+  github: sho-h
+  twitter: sho_hashimoto
+  image: sho-h
+  profile: Matsue.rb スタッフで会場を確保が主な担当。定例会ではるりまを書いている。
+  supplement: ''
+  community: Matsue.rb(松江Ruby)
+  description: ''
+  judged_by: |-
+    本コミュニティの主な活動は、毎月1回開催している定例会で各自が好きなことを一日中行うことです。その定例会での各自の成果が本コミュニティ、および
+    Rubyコミュニティ全体にとってどれくらい影響があるかを考慮して選定しています。
+  reason_for: |-
+    彼は、約6年間にわたってMatsue.rb定例会の会場予約、当日の開場、公式サイトの更新、Twitterでの告知といった"Matsue.rbのほぼ全てをメンテナンスする”活動をしてきました。
+    彼はまた、"るりま"のメンテナの一人として、この6年間ずっと"るりま"に貢献し続けています。
+    その長年の功績をたたえて、Kajaに選定しました。
+  comment: |-
+    Matsue.rb(松江Ruby)は、島根県松江市周辺で活動するプログラミング言語Rubyのコミュニティです。
+    主な活動は以下のイベントを開催することです。各イベントのスケジュールはこちらからご確認いただけます。
+    * 毎月1回のMatsue.rb定例会(後述)
+    * 年1回の松江Ruby会議
+    Matsue.rbの公式ウェブサイトは http://matsue.rubyist.net/ です。
+    また、情報交換やイベントの告知は主にFacebookのMatsue.rb(松江Ruby)グループ ( https://www.facebook.com/groups/matsuerb ) で行なっていますので、よろしければご参加ください。
+  id: sho-h
+- name: 玉寄 修一
+  github: siman-man
+  twitter: _simanman
+  image: siman-man
+  profile: |-
+    沖縄生まれの沖縄育ち、沖縄でSIerとして働いています。Ruby歴4年。
+
+    大学在学中に同級生や後輩と一緒にRyudai.rbを立ち上げて、大学内でRubyの布教活動を行っていました。
+
+    Rubyは大学3年の頃から触りはじめて、そこからハマり続けています。
+
+    Okinawa.rbには1年半前から参加しはじめています。様々なRubyistな人と会話できて楽しいです。
+  supplement: ちょっとしたツールを作るときはいつもRubyを使っています。
+  community: Okinawa.rb
+  description: ''
+  judged_by: Okinawa.rbのFacebook Groupにてアンケート投票を行い、規定の期日までに最も投票を得たメンバーを Okinawa.rb
+    の RubyKaja として選出致しました。
+  reason_for: |-
+    1. 在学中に Ryudai.rb を立ち上げ，琉球大学における Ruby コミュニティの普及に貢献した (なお，今は就職し，代表を辞めている)．
+    2. 沖縄Ruby会議01ではスタッフとして尽力し，会場である琉球大学との連携を中心に取りまとめた．
+    3. メソッドチェインを使ったしりとりゲーム (siman-man/shiritori) などを開発・公開した．
+  comment: |-
+    沖縄Ruby会議01が Rubyist Magazine に掲載されました!
+    もしよろしければ，是非ご一読ください :)
+
+    RegionalRubyKaigi レポート (44) 沖縄 Ruby 会議 01
+    http://magazine.rubyist.net/?0047-OkinawaRubyKaigi01Report
+  id: siman-man
+- name: Go Sueyoshi (a.k.a. sue445)
+  github: sue445
+  twitter: sue445
+  image: sue445
+  profile: |-
+    ドリコムでソフトウェア兼ライブラリ兼インフラエンジニアとして働いています。
+    趣味で "チョットベンリ" なツールを作ってます。
+    TDD(テスト駆動開発)と自動化が大好きです。
+
+    I'm working at Drecom.inc as software, library and infra engineer.
+    I make "Small Useful Easy" tools as a hobby.
+    I like TDD(Test Driven Development) and Automation.
+
+    I love Precure, I LOVE CURE PEACE!!!!!!!!!!!!!!!!
+  supplement: |-
+    "継続は力なり"
+
+    これからも面白いものを作っていきたいと思います。
+    このような素晴らしい称号を頂き本当にありがとうございました！
+
+    "Continuity is the father of success."
+
+    I want to hack something interesting in the future.
+    Thank you for great title!
+  community: Shibuya.rb
+  description: ''
+  judged_by: コミュニティ参加者による推薦・投票を行い、得票数の一番多かった方をKajaとしました
+  reason_for: |-
+    ミートアップで魅力的なLTを多数行って頂き、そのことがコミュニティメンバーに高く評価されました。
+    以下、推薦者の声です。
+    "自作 gem の話などの面白いLTをしてくれているので推薦します"
+    "高いコンテンツ力、常に何らかのネタを持っている"
+    "こまめに色々作って公開している"
+    "対外的に発表できる業務上の実績"
+    "面白くてためになるLTの数々！"
+    "多くの知見とRubicure"
+    "heart_seed 業務で活用させて頂いております！"
+  comment: |-
+    毎月第3水曜日の19:30頃からミートアップを行っています。
+    会場駆動開催ですので、開催可能な会場を随時募集しています！
+  id: sue445
+- name: udzura
+  github: udzura
+  twitter: udzura
+  image: udzura
+  profile: |-
+    近藤 宇智朗（こんどう うちお）
+    GMOペパボ株式会社 技術基盤チーム・シニアエンジニア
+
+    1984年愛知県生まれ。ECサイト、オンラインゲームの開発などを経て、2013年よりpaperboy&co.（現GMOペパボ）技術基盤チーム。同年10月から福岡支社勤務。
+    5年近くRubyとUN*X環境にどっぷりのエンジニアだが、地味にUnity3Dの開発経験があったりなど、技術の無駄な幅広さだけは自信がある。
+    Ruby関係の著作も手がけていて、2012年〜2014年の間に技術評論社『WEB+DB PRESS』でのRubyに関する連載の他、他共著で同社『パーフェクトRuby』、同社『パーフェクトRuby on Rails』などがある。
+    最近のマイブームはDockerとHubot
+  supplement: ''
+  community: Fukuoka.rb
+  description: ''
+  judged_by: GitHub のリポジトリ( https://github.com/fukuokarb/rubykaja2014 )に立候補者が pull
+    request を送り、メンバーが +1 コメントで投票してコメントの数で選出。
+  reason_for: Fukuoka.rb の Web サイトの立ち上げ、開場のファシリテーション、ミートアップでの LT 発表など Fukuoka.rb のコミュニティ活動を盛り上げるのに貢献。
+  comment: |-
+    Fukuoka.rb は、福岡周辺のRubyistが集まるコミュニティです。「福岡で、Rubyの話のできる人びとが集まる場所」を目指しています。
+    具体的には、集まって、gemを作ったり、Rubyのコミットログを読んだり、技術書を読んだり、質問があれば聞いたり、LTをしたりする、そんな場所となっています。
+    Asakusa.rb に憧れを送りつつ、 Shibuya.rb、Yokohama.rb、Sendagaya.rb などなどに影響を受けているような感じのコミュニティです。
+
+      URL: http://fukuokarb.doorkeeper.jp/
+
+      参加方法: 上記doorkeeperのイベントページ経由でご登録ください。Rubyに興味のある方なら、どなたでも歓迎します！
+  id: udzura
+- name: 前島真一
+  github: willnet
+  twitter: netwillnet
+  image: willnet
+  profile: 大学院卒業後，大手SIerに就職。Webの可能性を信じて転職し，現在はフリーランスのWebエンジニアとして活動している。ginza.rbとデザインビギナーズとゆるふわ
+    development clubの主催者。パーフェクトRuby on Railsの著者。ウェブ上では基本的にはwillnetというIDを使っているが，netwillnetとしているときもある。
+  supplement: パーフェクトRuby on Rails、まだ買ってない方はぜひご購入ください！
+  community: ginza.rb
+  description: ''
+  judged_by: |-
+    Kaja投票サイトを使用
+    http://ginzarbkaja.herokuapp.com/
+  reason_for: ブログ活動及び、ミートアップにおけるコードリーディングのファシリテート役によるコミュニティ貢献から
+  comment: 怖くありません
+  id: willnet
+- name: よしだあつし
+  github: yalab
+  twitter: yalab
+  image: yalab
+  profile: |-
+    大阪在住のrubyist。
+    ruby に出会い、rubyコミュニティに出会ったことで人生が変わりました。
+    rails の初心者向けレッスンを行う minami.rb でもう少し発展的な
+    セキュリティやDBなど雑多にとりあげて話をさせてもらっています。
+
+    プログラミングの敷居を下げ、裾野を広げて
+    もっと世の中が便利になればいいなと思います。
+
+    現在は株式会社おけやという赤字企業の代表。
+    このままダメなら来年ぐらいに倒産します。
+    趣味はプログラミングと大阪観光と食べ歩きです。
+  supplement: ''
+  community: Minami.rb
+  description: ''
+  judged_by: コミュニティ参加者、勉強会参加者による投票。
+  reason_for: コミュニティ参加者の様々なRuby、Railsの経験に年数に応じて、セッションを行ったり、初心者レッスンのサポートをしたりと、Minami.rbの先生役をコミュニティ発足時から継続して担っているから。
+  comment: よかったら勉強会など遊びに来てください。
+  id: yalab
+- name: ゆかお
+  github: yucao24hours
+  twitter: yucao24hours
+  image: yucao24hours
+  profile: |-
+    2011年に一念発起してフリーターからエンジニアへ転職、その後 2013年8月に永和システムマネジメントへ入社。
+    "Ruby歴 == 永和歴" のよちよちルビイストのため、仕事以外にも学びの場をつくりたいと思い、2013年11月によちよち.rb を発足させました。
+    現在はよちよち.rb の活動のほか、社内のイベント運営などにも携わり 内外ともにひっかきまわしております。
+  supplement: |-
+    * ほんわかした雰囲気を纏った癒し系美女。
+    * Perfumeののっちが凄く好き。
+    * 音楽好き(特にfunkやjazz)でドラマー。
+    * 絵が上手でTwitterアイコンやFacebookグループのタイトル画像も本人によるもの。
+  community: よちよち.rb
+  description: ''
+  judged_by: よちよち.rbメンバーで投票のためのWebアプリを作成し、選定しました。
+  reason_for: |-
+    ゆかおさんは、「勉強会に参加すること自体はじめて！」という初学者をやさしく受け入れ、自然とみんなをヤル気にさせる人です。
+    初学者たちにうれしい勉強会を誕生させたこと、またそれを週一というペースで一度も休むことなく継続していることは、多くの賞賛に値すると考え、よちよチスト一同自信を持って推薦します。
+    ゆかおマジ天使。いつもありがとう！！
+  comment: |-
+    初心者の、初心者による、初心者のための Ruby on Rails4.0 勉強会(読書会) です。
+
+    この勉強会のいちばんの目的は、Railsを習得することではありません。目線の高さが同じ人といっしょにひとつの活動を根気よく続けることで自信をつけていくこと、これが最大の目標です。
+
+    毎週月曜日20時から活動しています。主に「Rails Turtorial」を読んでおり、他にも、もくもく会や読書会、休日昼から始まる「昼間の部」も行っています。
+    さらには月に1回、みんなでビールを飲む「よちよち.beer」なる会も開催しています。
+  id: yucao24hours

@@ -1,28 +1,11 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-ruby '2.2.2'
+source "https://rubygems.org"
 
-# Server requirements
-gem 'puma'
+gem "jekyll", "~> 4.3"
+gem "webrick"
 
-# Project requirements
-gem 'rake'
-gem 'rinku'
-gem 'rack-tracker'
-
-# Component requirements
-gem 'slim'
-gem 'sass'
-
-group :development do
-  gem 'pry-padrino'
-  gem 'foreman'
+group :jekyll_plugins do
+  gem "jekyll-sass-converter", "~> 3.0"
+  gem "jekyll-seo-tag"
 end
-
-# Test requirements
-group :test do
-  gem 'rspec'
-  gem 'rack-test', :require => 'rack/test'
-end
-
-gem 'padrino', '0.12.4'

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ja' }}">
+<head>
+  {% include head.html %}
+</head>
+<body id="{{ page.body_id | default: 'Page' }}">
+  <div class="bg-kumo"></div>
+  <div class="bg-matsu"></div>
+  <div id="Container">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</body>
+</html>

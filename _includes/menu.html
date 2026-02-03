@@ -1,0 +1,11 @@
+<ul>
+  {% for item in site.data.menu %}
+  <li class="{{ item.path | default: item.year }} link">
+    {% if item.year %}
+    <a href="{{ '/' | append: item.year | append: '/about' | relative_url }}">{{ item.label }}</a>
+    {% else %}
+    <a href="{{ '/' | append: item.path | relative_url }}">{{ item.label }}</a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

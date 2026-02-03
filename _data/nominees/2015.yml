@@ -1,0 +1,17 @@
+---
+# 2015年のRuby Kaja受賞者データ
+# 受賞者情報を以下のフォーマットで追加してください
+
+# - name: 受賞者名
+#   github: GitHubユーザー名
+#   twitter: Twitterユーザー名
+#   image: 画像ファイル名（拡張子なし）
+#   profile: |-
+#     プロフィール文
+#   supplement: 補足情報
+#   community: コミュニティ名
+#   description: コミュニティの説明
+#   judged_by: 選考方法
+#   reason_for: 選出理由
+#   comment: コメント
+#   id: 一意のID

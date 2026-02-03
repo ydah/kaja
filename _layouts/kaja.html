@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% include sidebar.html %}
+
+<header class="about-header">
+  <h1>Ruby Kaja {{ page.year }}</h1>
+</header>
+
+<section class="contents">
+  <ul id="KajaContainer">
+    {% assign nominees = site.data.nominees[page.year] %}
+    {% if nominees and nominees.size > 0 %}
+      {% assign sorted_nominees = nominees | sort: 'community' %}
+      {% for nominee in sorted_nominees %}
+        <li class="kaja">
+          <div class="inner-kaja">
+            <img src="{{ '/assets/images/profile/' | append: nominee.image | append: '.png' | relative_url }}" class="img" alt="{{ nominee.name }}">
+
+            <h2 class="kaja-name">{{ nominee.name }}</h2>
+
+            {% if nominee.github %}
+            <a href="https://github.com/{{ nominee.github }}" target="_blank" class="github link">{{ nominee.github }}</a>
+            {% endif %}
+
+            {% if nominee.twitter %}
+            <a href="https://twitter.com/{{ nominee.twitter }}" target="_blank" class="twitter link">{{ nominee.twitter }}</a>
+            {% endif %}
+
+            <p class="text hide">{{ nominee.profile | newline_to_br }}</p>
+            <p class="text hide">{{ nominee.supplement | newline_to_br }}</p>
+
+            <h3 class="criterion hide">Kaja選定の基準や方法</h3>
+            <p class="text hide">{{ nominee.judged_by | newline_to_br }}</p>
+
+            <h3 class="hide">Kaja投票理由</h3>
+            <ul class="motive hide">{{ nominee.reason_for | newline_to_br }}</ul>
+
+            <h2 class="community-name">{{ nominee.community }}</h2>
+            <p class="text">{{ nominee.description | newline_to_br }}</p>
+            <p class="text hide">{{ nominee.comment | newline_to_br }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    {% else %}
+      <h2>That still hasn't been decided. Is it you?</h2>
+    {% endif %}
+  </ul>
+</section>
+
+{{ content }}

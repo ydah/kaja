@@ -1,0 +1,43 @@
+title: Ruby Kaja
+description: Ruby Kaja is a title to recognize people who have contributed to Ruby or the Ruby community.
+url: https://kaja.rubyist.net
+baseurl: ""
+
+current_year: "2015"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README.ja.md
+  - Rakefile
+  - bin/
+  - spec/
+  - app/
+  - config/
+  - lib/
+  - models/
+  - data/
+  - config.ru
+  - Procfile
+  - public/
+  - .tachikoma.yml
+  - .components
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: ja
+  - scope:
+      path: "en"
+    values:
+      lang: en

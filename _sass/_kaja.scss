@@ -203,6 +203,9 @@ body {
     text-decoration:none;
   }
 }
+.global-nav .link.current a {
+  @extend .ex_current_anchor;
+}
 #About .sidebar {
   .about a {
     @extend .ex_current_anchor;

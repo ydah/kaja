@@ -3,6 +3,8 @@ layout: about
 title: Ruby Kaja 2014
 body_id: About
 year: "2014"
+page_type: about
+permalink: /2014/about/
 communities:
   - name: Ruby札幌
     description: "http://ruby-sapporo.org 札幌にて Ruby に関する活動を行っているコミュニティです。Ruby勉強会＠札幌などのイベントを不定期に開催しています。"

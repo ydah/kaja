@@ -1,4 +1,11 @@
 <ul>
+  {% assign year_pages = site.years | where: "page_type", "about" | sort: "year" | reverse %}
+  {% for year_page in year_pages %}
+  <li class="{{ year_page.year }} link{% if year_page.year == site.current_year %} current{% endif %}">
+    <a href="{{ year_page.url | relative_url }}">RubyKaja {{ year_page.year }}</a>
+  </li>
+  {% endfor %}
+
   {% for item in site.data.menu %}
   <li class="{{ item.path | default: item.year }} link">
     {% if item.year %}

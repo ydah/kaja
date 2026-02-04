@@ -3,6 +3,8 @@ layout: about
 title: Ruby Kaja 2013
 body_id: About
 year: "2013"
+page_type: about
+permalink: /2013/about/
 committee:
   - role: 顧問
     name: 高橋征義

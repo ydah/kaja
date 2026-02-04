@@ -31,6 +31,10 @@ sass:
 plugins:
   - jekyll-seo-tag
 
+collections:
+  years:
+    output: true
+
 defaults:
   - scope:
       path: ""

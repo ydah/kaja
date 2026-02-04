@@ -17,12 +17,42 @@ $(function(){
     innerPadding:10
   };
 
-  $KajaContainer.find('.kaja').wookmark({
-    autoResize: true,
-    container: $KajaContainer,
-    offset: 10,
-    itemWidth: 280
-  });
+  var $kajaItems = $KajaContainer.find('.kaja');
+  
+  function initWookmark() {
+    $kajaItems.wookmark({
+      autoResize: true,
+      container: $KajaContainer,
+      offset: 10,
+      itemWidth: 280
+    });
+  }
+
+  // Wait for all images to load before initializing Wookmark
+  var images = $KajaContainer.find('img');
+  var loadedCount = 0;
+  var totalImages = images.length;
+
+  if (totalImages === 0) {
+    initWookmark();
+  } else {
+    images.each(function() {
+      var img = this;
+      if (img.complete) {
+        loadedCount++;
+        if (loadedCount === totalImages) {
+          initWookmark();
+        }
+      } else {
+        $(img).on('load error', function() {
+          loadedCount++;
+          if (loadedCount === totalImages) {
+            initWookmark();
+          }
+        });
+      }
+    });
+  }
 
   // **********************
   // event

@@ -34,7 +34,7 @@ layout: default
 
 <section class="committee-contents contents">
   <h1 id="committee">Ruby Kaja {{ page.year }} 運営委員</h1>
-  <p>日本 Ruby の会の活動の一環として有志によって運営されています。</p>
+  <p>{{ page.committee_description | default: "日本 Ruby の会の活動の一環として有志によって運営されています。" }}</p>
   <ul>
     {% for member in page.committee %}
     <li>

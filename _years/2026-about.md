@@ -5,6 +5,8 @@ body_id: About
 year: "2026"
 page_type: about
 permalink: /2026/about/
+entry_link_label: Ruby Kaja 2026 推薦募集中
+entry_link_url: "https://forms.gle/CpTyewaGp2Kq5FXu5"
 committee_description: "関ケ原Ruby会議実行委員会によって運営されています。"
 committee:
   - role: スタッフ
@@ -28,11 +30,3 @@ committee:
   - role: 協力
     name: "@saucerjp"
 ---
-
-<section class="about-contents contents">
-  <h1 id="entry">登録者募集中</h1>
-  <ul>
-    <li><a href="https://forms.gle/CpTyewaGp2Kq5FXu5">登録フォーム</a></li>
-    <li><a href="https://note.com/sekigahara01/n/nc42f4689b4e8">Ruby Kaja 2026 推薦募集のお知らせ（note）</a></li>
-  </ul>
-</section>

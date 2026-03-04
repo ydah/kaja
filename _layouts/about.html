@@ -9,7 +9,15 @@ layout: default
 </header>
 
 <section class="entry-contents contents">
-  <h2><a href="{{ '/' | append: page.year | append: '/kaja' | relative_url }}">Ruby Kaja {{ page.year }} 受賞者</a></h2>
+  {% if page.entry_link_label %}
+    {% if page.entry_link_url %}
+      <h2><a href="{{ page.entry_link_url }}">{{ page.entry_link_label }}</a></h2>
+    {% else %}
+      <h2>{{ page.entry_link_label }}</h2>
+    {% endif %}
+  {% else %}
+    <h2><a href="{{ '/' | append: page.year | append: '/kaja' | relative_url }}">Ruby Kaja {{ page.year }} 受賞者</a></h2>
+  {% endif %}
 </section>
 
 {% if page.communities %}

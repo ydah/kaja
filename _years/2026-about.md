@@ -7,10 +7,32 @@ page_type: about
 permalink: /2026/about/
 committee_description: "関ケ原Ruby会議実行委員会によって運営されています。"
 committee:
-  - role: 主催
-    name: 関ケ原Ruby会議実行委員会
+  - role: スタッフ
+    name: "@ydah"
+  - role: スタッフ
+    name: "@osyoyu"
+  - role: スタッフ
+    name: "@corocn"
+  - role: スタッフ
+    name: "@ex_SOUL"
+  - role: スタッフ
+    name: "@pndcat"
+  - role: スタッフ
+    name: "@Pasta-K"
+  - role: スタッフ
+    name: "@attsumi"
   - role: 発案
     name: "@nagachika"
   - role: 協力
-    name: "矢部剛嗣 ( @tyabe )"
+    name: "@tyabe"
+  - role: 協力
+    name: "@saucerjp"
 ---
+
+<section class="about-contents contents">
+  <h1 id="entry">登録者募集中</h1>
+  <ul>
+    <li><a href="https://forms.gle/CpTyewaGp2Kq5FXu5">登録フォーム</a></li>
+    <li><a href="https://note.com/sekigahara01/n/nc42f4689b4e8">Ruby Kaja 2026 推薦募集のお知らせ（note）</a></li>
+  </ul>
+</section>

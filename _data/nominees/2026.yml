@@ -6,9 +6,12 @@
   profile: ''
   supplement: ''
   community: Ruby東海
-  description: ''
+  description: "Ruby東海は、名古屋近辺にてRubyに関する活動を行っているコミュニティです。主な活動として、月1回程度の勉強会や名古屋Ruby会議の主催をしています。勉強会はZoomやGoogle Meetを使ったオンライン開催も予定されています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    Ruby東海に常連として参加し、コミュニティを継続的に支えていることに加え、Rubyとフロントエンドの両方に知見を持ち、HotwireへのコントリビュートなどOSSへの積極的な貢献も行っているため。
+
+    Hotwireへのコントリビューション: https://github.com/hotwired/turbo/pulls/yujiteshima
   comment: ''
   id: yujiteshima
 - name: すぎうり
@@ -18,9 +21,12 @@
   profile: ''
   supplement: ''
   community: Kyobashi.rb
-  description: ''
+  description: "Kyobashi.rbは、京橋（大阪）周辺のRubyistが集まるRubyコミュニティです。大阪の京橋周辺のRubyに興味があるエンジニアが集まって好きなことをするオフラインコミュニティで、京橋に職場や居住地がない人も歓迎しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    Kyobashi.rbの初回から参加し続けているだけでなく、Short Talkでも何度も発表者として場を盛り上げてきたため。
+
+    また、大阪Ruby会議04や関西Ruby会議08では、NOCチームの立ち上げから現在に至るまで中心となって尽力し、地域Rubyイベントの運営を支えているため。
   comment: ''
   id: uproad
 - name: 佐田 明弘（さだ あきひろ）
@@ -30,9 +36,14 @@
   profile: ''
   supplement: ''
   community: Matsue.rb(松江Ruby)
-  description: ''
+  description: "Matsue.rb(松江Ruby)は、島根県松江市周辺で活動するプログラミング言語Rubyのコミュニティです。主な活動は、Matsue.rb定例会や松江Ruby会議といったイベントを開催することです。定例会では、Rubyを中心にオープンソースソフトウェアに関する新しい発見や学びを共有できる場を提供しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    Matsue.rb(松江Ruby)の代表として、コロナ禍を含めて毎月欠かさずMatsue.rb定例会を主催し、地域のコミュニティ活動を堅実に支えてきたため。
+
+    2019年からMatsue.rbの3代目代表を務め、オンラインを併用しながら「毎月、必ずそこにコミュニティがある」という安心感を提供し続けてきました。2023年からは松江Ruby会議を再開し、Rubyの聖地・松江におけるコミュニティの土台を再構築しています。
+
+    Matz、shugo、hasumikin、yharaといった松江在住の著名なRubyistと、地域の技術者や学生をつなぐ架け橋となり、その交流を日常的なものへと定着させた「コミュニティのハブ」としての貢献を称え、推薦します。
   comment: ''
   id: sada
 - name: Mayumi EMORI @emorima
@@ -42,9 +53,14 @@
   profile: ''
   supplement: ''
   community: "Izumo Developers' Guild"
-  description: ''
+  description: "Izumo Developers' Guildは、主に出雲で活動しているRuby大好き、その他技術が好きなエンジニアが集まるコミュニティです。ミートアップでは電子工作をしてみたり、参加者の人と相談したりしています。次回の開催内容などはSlackで話していて、興味がある方はどなたでも参加可能です。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    コロナ禍で出雲のエンジニアコミュニティが途絶え、地元エンジニアが社外のエンジニアと交流する機会を失っていた中で、Izumo Developers' Guildを立ち上げ、出雲にRubyコミュニティの礎を築いたため。
+
+    2024年9月に出雲のIT企業へ呼びかけてコミュニティを立ち上げ、月次のエンジニア勉強会を企画しました。Rails Girls Izumo 1stの開催支援や出雲Ruby会議01の企画者として、出雲に存在していなかったRubyコミュニティを創設し、エンジニアの交流の場を作っています。
+
+    出雲Ruby会議01では地元エンジニアの登壇枠を設けるなど、地元で活動するエンジニアにスポットを当てる取り組みも続けています。
   comment: ''
   id: emorima
 - name: 齋藤甚六
@@ -54,9 +70,14 @@
   profile: ''
   supplement: ''
   community: Fukuoka.rb
-  description: ''
+  description: "Fukuoka.rbは、福岡周辺のRubyistが集まり、Rubyに関係したり関係しなかったりすることについて活動する地域Rubyistコミュニティです。なるべく毎週水曜日にミートアップを設けています。もくもく会形式が多いですが、時々LTをしたり、西鉄沿線のおいしいものを食べに行ったりします。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    近年のFukuoka.rbをほぼ主催し、直近3回の福岡Rubyist会議を中心となってドライブすることで、福岡でのRubyistの活動を支えてきたため。
+
+    Fukuoka.rbと福岡Rubyist会議によって福岡のRubyistの活動が継続され、福岡のRubyistが増える流れにも大きく貢献しています。また、近年はdate.rbを通じてRuby本体への貢献も行っています。
+
+    date.rbへの貢献: https://github.com/ruby/date/pull/155
   comment: ''
   id: jinroq
 - name: 伊藤 邦彦（いとう くにひこ）
@@ -66,9 +87,17 @@
   profile: ''
   supplement: ''
   community: Toyama.rb
-  description: ''
+  description: "Toyama.rbは、富山の地域Rubyコミュニティです。もくもく会をメインに活動し、もくもくと好きな作業をしつつ、参加者同士での交流を深めることを目的としています。不定期にLT大会などのイベントや、任意参加での懇親会も開催しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    Rubyに出会った当初から各地のRubyコミュニティと積極的に交流し、2015年に発足したToyama.rbの活動にも継続して協力し、現在に至るまでコミュニティを盛り上げ続けているため。
+
+    Toyama.rbは月次開催で、2026年3月時点で108回開催されています。そのうち86回に参加し、半分主催者のように場をリードすることも多く、コミュニティの維持・存続に欠かせない存在です。
+
+    さらに、富山Ruby会議のオーガナイザーや、kanazawa.rbと協力した北陸Ruby会議の実行委員長を務めるなど、富山に限らず北陸全体のRubyコミュニティの盛り上げに大きく貢献しています。
+
+    富山Ruby会議: https://toyamarb.github.io/toyama-rubykaigi01/
+    北陸Ruby会議: https://regional.rubykaigi.org/hokuriku01/
   comment: ''
   id: kunitoo
 - name: ex_SOUL
@@ -78,9 +107,12 @@
   profile: ''
   supplement: ''
   community: nagara.rb
-  description: ''
+  description: "nagara.rbは、月に1回、清流・長良川が流れる美しい岐阜市で、みんなでゆるく、もくもくとプログラミングを楽しむコミュニティです。言語を問わずにコーディングを楽しめるイベントで、仕事でも勉強でも創作でも、何をやるにしても構いません。初心者から上級者まで、どなたでも歓迎されています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    岐阜という枠を超えて、東海圏全域のテックコミュニティに自ら参加するだけでなく、運営側としても主体的に関わってきた実績を称え、推薦します。
+
+    関ケ原Ruby会議のローカルオーガナイザー、ながらRuby会議や名古屋Ruby会議の運営、NGK2026Sの運営など、複数の地域イベントを支えています。nagara.rbやRuby東海にも継続的に参加し、地域コミュニティの接点を広げています。
   comment: ''
   id: exSOUL
 - name: 内藤 淳
@@ -90,9 +122,12 @@
   profile: ''
   supplement: ''
   community: ginza.rb
-  description: ''
+  description: "ginza.rbは、銀座周辺のRuby技術者たちが集まってRubyに関する何かをする地域Rubyistコミュニティです。connpassでは、銀座のあたりでRubyに関連した、なんかをする集まりとして案内されています。過去のmeetupはGitHubのwikiでも確認できます。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    ginza.rbはコロナ禍を経て2024年にオフライン活動を再開しました。以降、メドピアさんの会場を借りてミートアップを実施しており、その中で会場係として毎回の会場セットアップ、参加者の誘導、片付けなどを担当し、コミュニティ活動を支えているため。
+
+    目立つ発表やコードだけではなく、場を成立させるための継続的な運営を担う、コミュニティを支える縁の下の力持ちとして推薦します。
   comment: ''
   id: naitoh
 - name: 今野 夕貴
@@ -102,9 +137,12 @@
   profile: ''
   supplement: ''
   community: Sendai.rb
-  description: ''
+  description: "Sendai.rbは、仙台周辺のRubyistが集まってワイワイするコミュニティ、三代目のSendai.rbです。イベントの参加者全員が楽しく、安全に集える場を維持するために行動規範を策定しています。現地開催のミートアップや、オンライン開催の研鑽Ruby読書会などを行っています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    コロナ禍などで活動が途絶えていた時期もあったSendai.rbを中心となって動かし、オフラインイベントや読書会など、再び活動の幅を広げるきっかけを作ったため。
+
+    人が少ないというコミュニティにとって大きな課題がある中でも、高い熱量を持って活動し、Sendai.rbにとって欠かせない存在になっています。2026年11月開催予定の仙台Ruby会議03では実行委員長を務め、招待講演の交渉や日本Rubyの会への連絡など、着実に準備を進めています。
   comment: ''
   id: thatblue
 - name: makicamel
@@ -114,9 +152,14 @@
   profile: ''
   supplement: ''
   community: PicoPicoRuby
-  description: ''
+  description: "PicoPicoRubyは、PicoRubyでやっていることを自慢したり、他の人がやっていることを面白がったりするPicoRuby互助会コミュニティです。月に一度、だいたい第三水曜日または第四水曜日にオフラインで集まってわいわいやっています。作ったものを自慢しても、作業しても、おしゃべりしにきてもいい場です。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    PicoPicoRubyコミュニティの立ち上げから現在に至るまで、毎月継続的に運営・開催をリードし、このコミュニティの成長を支えてきたため。
+
+    毎月の開催を通じて、経験者・初学者を問わず、参加者同士が気軽に作品を見せ合い、相談し、新たな発見やつながりが生まれる場を継続しています。コミュニティ参加者からも、PicoPicoRubyのおかげで生み出せたアウトプットや、一人でもくもくしていただけでは生まれない出会いがあるという声が上がっています。
+
+    関西Ruby会議08 After Party: 叡電LTでのPicoRubyを使ったLTや、PicoRuby Overflow Kaigiの主要スタッフとしての活動など、PicoRubyの楽しさやコミュニティの魅力を広く発信している点も推薦理由です。
   comment: ''
   id: makicamel
 - name: Takumi Shotoku
@@ -126,9 +169,12 @@
   profile: ''
   supplement: ''
   community: Asakusa-bashi.rbs
-  description: ''
+  description: "Asakusa-bashi.rbsは、Ruby技術者たちが集まって型について話したり、ハックする地域Rubyistコミュニティです。タイトルに浅草橋がついていますが、浅草橋には関係なく誰でも参加できます。RBSやSteepを試しに触ってみたい人、型について分からないことを相談したい人、Rubyの型に関するOSSにコントリビュートしたい人などを歓迎しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    Asakusa-bashi.rbsの共同主催としてコミュニティ運営を主導し、コミュニティ内でも積極的に発言するなど、活動を継続できる状況を構築しているため。
+
+    Asakusa-bashi.rbsでの積極的な活動に加え、typeprofやrbs-traceなど、Rubyの型系OSSへの貢献も行っています。
   comment: ''
   id: sinsoku
 - name: sago35
@@ -138,9 +184,14 @@
   profile: ''
   supplement: ''
   community: AKASHI.rb
-  description: ''
+  description: "AKASHI.rbは、明石市周辺在住者のために新しく誕生したエンジニアコミュニティです。他地域の方、Ruby初心者、プログラミング初心者も大歓迎です。Rubyを中心としたコミュニティではありますが、Ruby以外の技術や技術以外の話題についても、気軽に話し合いながら、みんなで楽しく学べる場を目指しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    関西最西端のRubyコミュニティ「AKASHI.rb」を、立ち上げから一緒に運営してきた仲間として推薦します。
+
+    Rubyが主な専門ではなかったにもかかわらず、初回からほぼ欠かさず参加し、運営側として継続して場を守ってきました。その「変わらず居てくれる」安心感が、コミュニティが今日まで続いてきた大きな支えになっています。
+
+    Goエンジニアという背景を持ちながら運営に関わることで、Rubyだけでなく明石周辺のエンジニアが技術スタックを問わずゆるくつながれる、風通しのよい場づくりにも貢献しています。
   comment: ''
   id: sago35
 - name: 八田昌三（はったしょうぞう）
@@ -150,9 +201,12 @@
   profile: ''
   supplement: ''
   community: 三浦半島.rb
-  description: ''
+  description: "三浦半島.rbは、三浦半島もとい、神奈川県の南側を中心とした界隈でRuby技術者たちが気軽に集まれるコミュニティです。神奈川県にお住まいのRubyistの方、県外在住で三浦半島に遊びに行ってみたいRubyistの方も大歓迎です。オンライン開催や横須賀市での開催などを行っています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    長年続けている翻訳活動・執筆活動を通じて、さまざまな層のRubyistのインプットを支え続けてきたため。
+
+    また、三浦半島.rbの創設メンバーの一人として、会場の手配や企画のサポート、技術的知見の共有など、地域.rbの運営をさまざまな面から支えています。RailsガイドやTechRachoでの翻訳・執筆活動により、地域.rb初参加の人にも知られている存在であり、コミュニティへの参加のきっかけにもなっています。
   comment: ''
   id: hachi8833
 - name: 塩井美咲
@@ -162,9 +216,12 @@
   profile: ''
   supplement: ''
   community: Asakusa.rb
-  description: ''
+  description: "Asakusa.rbは、毎週火曜日の夜に東京下町周辺のRuby技術者たちが集まって何かをハックする地域Rubyistコミュニティです。活動を通して少しでもRubyコミュニティ全体に還元できるようなプロダクトやノウハウ等の成果を残していくことを考えています。集まった人たちでRubyに関する何か、ハックや雑談などをしています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    初学者としてAsakusa.rb meetupに参加し始めてからわずか数年でRubyコミッターに就任するまでに至っためざましい活躍が、Asakusa.rbに新鮮な刺激をもたらし、新しい世代のメンバーにとってのロールモデルにもなっているため。
+
+    2018年にRubyプログラマーとしてのキャリアを開始し、2020年の大江戸Ruby会議08、2021年のRubyKaigi Takeout登壇、2023年度Ruby Association GrantでのHappy Eyeballs 2への取り組み、2024年のRubyコミッター就任やRuby Prize 2024受賞など、継続的にRubyコミュニティへ大きな刺激を与えています。
   comment: ''
   id: shioimm
 - name: おさと
@@ -174,9 +231,12 @@
   profile: ''
   supplement: ''
   community: Okinawa.rb
-  description: ''
+  description: "Okinawa.rbは、沖縄のRuby/Railsコミュニティです。沖縄に在住または滞在しているRuby/Railsな方々でワイワイすることを目的として、那覇市や宜野湾市などでMeetupを開いています。沖縄の方はもちろん、たまたま沖縄にフラっと寄っている方も歓迎しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    コロナ禍で止まっていたOkinawa.rbのミートアップをリブートし、沖縄のRubyistが集う機会を再び作ってくれたため。
+
+    毎月の会場確保や当日の参加者への気配りなど、コミュニティが継続して活動できるための実務を担い、コミュニティへの還元意識の高さでも場を支えています。
   comment: ''
   id: osatoh
 - name: 森塚 真年
@@ -186,8 +246,13 @@
   profile: ''
   supplement: ''
   community: Kyoto.rb
-  description: ''
+  description: "Kyoto.rbは、京都市周辺のRuby技術者が集まって刺激しあえる場を作っていこうとするコミュニティです。ハックしたり、発表したり、語り合ったりとやることは自由です。モチベーションの充電場所を目指し、京都市在住の方以外の参加も歓迎しています。"
   judged_by: ''
-  reason_for: ''
+  reason_for: |-
+    コミュニティの継続のために長年貢献してきたため、RubyKajaとして推薦します。
+
+    コロナ禍以前からKyoto.rbに参加し続けているだけでなく、オンラインプログラミング教室の新規メンバーを誘う、自ら発表するなど、コミュニティ継続のためのさまざまな活動を目立たないながらも継続してきました。
+
+    コロナ禍で参加人数が激減した後も活動を通じてコミュニティに貢献し、参加メンバーが困っている場面で参考情報を共有したり、自身の困りごとや直面していることを率先して自己開示したりすることで、開かれた議論の場づくりにも貢献しています。
   comment: ''
   id: sanfrecce-osaka

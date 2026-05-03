@@ -47,7 +47,11 @@ layout: default
             {% endif %}
 
             <h2 class="community-name">{{ nominee.community }}</h2>
+            {% if page.year == "2026" %}
+            <p class="text hide">{{ nominee.description | newline_to_br }}</p>
+            {% else %}
             <p class="text">{{ nominee.description | newline_to_br }}</p>
+            {% endif %}
             {% unless page.year == "2026" %}
             <p class="text hide">{{ nominee.comment | newline_to_br }}</p>
             {% endunless %}

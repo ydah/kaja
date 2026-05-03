@@ -23,16 +23,23 @@ layout: default
 {% if page.communities %}
 <section class="community-list contents">
   <h1 id="community-list">参加コミュニティ</h1>
+  {% assign communities = page.communities | sort_natural: "name" %}
   <ul>
-    {% for community in page.communities %}
+    {% for community in communities %}
     <li><a href="#community_{{ forloop.index0 }}">{{ community.name }}</a></li>
     {% endfor %}
   </ul>
 
   <table>
-    {% for community in page.communities %}
+    {% for community in communities %}
     <tr id="community_{{ forloop.index0 }}">
-      <th>{{ community.name }}</th>
+      <th>
+        {% if community.url %}
+        <a href="{{ community.url }}" target="_blank" rel="noopener">{{ community.name }}</a>
+        {% else %}
+        {{ community.name }}
+        {% endif %}
+      </th>
       <td>{{ community.description | newline_to_br }}</td>
     </tr>
     {% endfor %}

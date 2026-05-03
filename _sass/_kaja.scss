@@ -565,6 +565,79 @@ body {
   .contents {
     margin:0;
   }
+  .special-awards {
+    max-width:960px;
+    margin:0 auto 36px;
+    padding:0 20px;
+  }
+  .special-awards-header {
+    margin:0 0 18px;
+    padding:18px 0 16px;
+    border-top:3px solid #C20000;
+    border-bottom:1px solid rgba( #000, 0.2 );
+    h2 {
+      margin:0;
+      font-size:48px;
+      line-height:1;
+      color:#111;
+    }
+  }
+  .award-label {
+    margin:0 0 8px;
+    color:#C20000;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:0;
+    text-transform:uppercase;
+  }
+  .special-award-list {
+    margin:0;
+  }
+  .special-award {
+    @include contents-bg;
+    @include box-shadow( 0 0 8px rgba( #000, 0.25 ) );
+    display:table;
+    width:100%;
+    margin-bottom:16px;
+    padding:18px;
+    background-color:rgba( #fff, 0.88 );
+    @include box-sizing( border-box );
+  }
+  .special-award-image,
+  .special-award-body {
+    display:table-cell;
+    vertical-align:top;
+  }
+  .special-award-image {
+    width:130px;
+    padding-right:20px;
+    img {
+      display:block;
+      width:110px;
+      background:#fff;
+      border:1px solid rgba( #000, 0.12 );
+    }
+  }
+  .special-award-body {
+    h3 {
+      margin:0;
+      color:#111;
+      font-size:30px;
+      line-height:1.25;
+    }
+  }
+  .special-award-community {
+    margin:4px 0 14px;
+    color:#333;
+    font-size:16px;
+    font-weight:bold;
+  }
+  .special-award-reason {
+    margin:0;
+    color:#333;
+    font-size:14px;
+    line-height:1.8;
+  }
   #KajaContainer {
     position:relative;
     .flowting {

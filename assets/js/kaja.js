@@ -58,11 +58,15 @@ $(function(){
   // event
   // **********************
   $(document).on('click', '#KajaContainer .kaja', function(){
+    showKaja($(this));
+  });
+
+  function showKaja($target){
     var width = $('body').width();
     var height = $('body').height();
 
-    if( $(this).is('.flowting') ){
-      $(this).fadeOut('normal', function(){
+    if( $target.is('.flowting') ){
+      $target.fadeOut('normal', function(){
         $(this).remove();
       });
       removebg();
@@ -72,9 +76,8 @@ $(function(){
       });
       removebg();
     } else {
-      var $this = $(this);
-      var $kaja = $this.clone();
-      var top = $(document).scrollTop();
+      var $kaja = $target.clone();
+      var top = $(document).scrollTop() - $KajaContainer.offset().top + 120;
 
       addbg( width, height );
 
@@ -83,9 +86,10 @@ $(function(){
       }).addClass('flowting').addClass('hide');
       $('#KajaContainer').append( $kaja );
       $kaja.find('.hide').removeClass('hide');
+      $kaja.removeClass('hide');
       $kaja.fadeIn();
     }
-  });
+  }
 
   $(document).on('click', '#KajaContainer .kaja a', function(e){
     e.stopPropagation();

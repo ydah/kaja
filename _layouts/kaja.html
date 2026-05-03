@@ -9,12 +9,44 @@ layout: default
 </header>
 
 <section class="contents">
+  {% assign nominees = site.data.nominees[page.year] %}
+  {% if nominees and nominees.size > 0 %}
+    {% assign special_awards = nominees | where: "special_award", true | sort: 'community' %}
+    {% if special_awards and special_awards.size > 0 %}
+    <section class="special-awards">
+      <div class="special-awards-header">
+        <p class="award-label">Ruby Kaja {{ page.year }}</p>
+        <h2>特別賞</h2>
+      </div>
+
+      <ul class="special-award-list">
+        {% for nominee in special_awards %}
+        <li class="special-award">
+          <div class="special-award-image">
+            {% if nominee.image_url %}
+            <img src="{{ nominee.image_url | escape }}" alt="{{ nominee.name }}">
+            {% else %}
+            <img src="{{ '/assets/images/profile/' | append: nominee.image | append: '.png' | relative_url }}" alt="{{ nominee.name }}">
+            {% endif %}
+          </div>
+          <div class="special-award-body">
+            <p class="award-label">{{ nominee.special_award_title | default: "Special Award" }}</p>
+            <h3>{{ nominee.name }}</h3>
+            <p class="special-award-community">{{ nominee.community }}</p>
+            <p class="special-award-reason">{{ nominee.special_award_reason | default: nominee.reason_for | newline_to_br }}</p>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  {% endif %}
+
   <ul id="KajaContainer">
-    {% assign nominees = site.data.nominees[page.year] %}
     {% if nominees and nominees.size > 0 %}
       {% assign sorted_nominees = nominees | sort: 'community' %}
       {% for nominee in sorted_nominees %}
-        <li class="kaja">
+        <li class="kaja" data-nominee-id="{{ nominee.id }}">
           <div class="inner-kaja">
             {% if nominee.image_url %}
             <img src="{{ nominee.image_url | escape }}" class="img" alt="{{ nominee.name }}">

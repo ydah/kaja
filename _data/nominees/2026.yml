@@ -1,4 +1,6 @@
 ---
+# special_award: true を付けると、Kajaページ上部の「特別賞」枠に表示されます。
+# special_award_title / special_award_reason を指定すると、特別賞枠の表示文言を上書きできます。
 - name: 手島 裕司
   github: yujiteshima
   twitter: yuji_teshima
@@ -15,6 +17,7 @@
   comment: ''
   id: yujiteshima
 - name: すぎうり
+  special_award: true
   github: uproad
   twitter:
   image_url: "https://pbs.twimg.com/profile_images/1291632189776334853/jpRkcosf_400x400.png"
@@ -24,12 +27,15 @@
   description: "Kyobashi.rbは、京橋（大阪）周辺のRubyistが集まるRubyコミュニティです。大阪の京橋周辺のRubyに興味があるエンジニアが集まって好きなことをするオフラインコミュニティで、京橋に職場や居住地がない人も歓迎しています。"
   judged_by: ''
   reason_for: |-
-    Kyobashi.rbの初回から参加し続けているだけでなく、Short Talkでも何度も発表者として場を盛り上げてきたため。
+    Kyobashi.rbの初回から現在に至るまで継続的に参加し、コミュニティの場づくりを支えてきたため。
 
-    また、大阪Ruby会議04や関西Ruby会議08では、NOCチームの立ち上げから現在に至るまで中心となって尽力し、地域Rubyイベントの運営を支えているため。
+    また、Short Talkでも何度も発表者として登壇し、技術的な話題や日々の取り組みを共有することで、参加者同士の学びや交流が生まれる場を盛り上げてきました。継続的に参加するだけでなく、自ら発表し、場に貢献し続けている点も大きな推薦理由です。
+
+    さらに、大阪Ruby会議04や関西Ruby会議08では、NOCチームの立ち上げから現在に至るまで中心的に尽力し、ネットワーク環境の整備を通じて地域Rubyイベントの安定した運営を支えてきました。参加者や登壇者が安心してイベントに集中できる環境を技術面から支え続けている点も、地域Rubyコミュニティへの大きな貢献だと考えています。
   comment: ''
   id: uproad
 - name: 佐田 明弘（さだ あきひろ）
+  special_award: true
   github: sada
   twitter: sada4
   image_url: "https://github.com/sada.png?size=256"
@@ -81,6 +87,7 @@
   comment: ''
   id: jinroq
 - name: 伊藤 邦彦（いとう くにひこ）
+  special_award: true
   github: kunitoo
   twitter: kunitoo
   image_url: "https://github.com/kunitoo.png?size=256"
@@ -146,6 +153,7 @@
   comment: ''
   id: thatblue
 - name: makicamel
+  special_award: true
   github: makicamel
   twitter: makicamel
   image_url: "https://avatars.githubusercontent.com/u/30112374?v=4"
@@ -162,6 +170,21 @@
     関西Ruby会議08 After Party: 叡電LTでのPicoRubyを使ったLTや、PicoRuby Overflow Kaigiの主要スタッフとしての活動など、PicoRubyの楽しさやコミュニティの魅力を広く発信している点も推薦理由です。
   comment: ''
   id: makicamel
+- name: Toshio Maki
+  github: kirikak2
+  twitter: Kirika_K2
+  image_url: "https://gravatar.com/avatar/6d1f15d1dd0b93a73af0feaa85b6c9cfc9045a8f1e069316bcce316b0dd39bf6?size=256&d=initials"
+  profile: ''
+  supplement: ''
+  community: Roppongi.rb
+  description: "六本木周辺のRubyistが中心となり、Rubyist向けのミートアップを企画する地域Rubyコミュニティです。"
+  judged_by: ''
+  reason_for: |-
+    出席最多であり、参加してくれる人がいて初めてコミュニティが成り立つため。
+
+    主催が始まってから23回すべてのイベントに参加しており、所属するスポンサー企業開催やOmotesando.rb共同開催でデータ上参加登録がないものも含めて、継続的にRoppongi.rbの場を支えています。
+  comment: ''
+  id: kirikak2
 - name: Takumi Shotoku
   github: sinsoku
   twitter: sinsoku_listy
@@ -195,6 +218,7 @@
   comment: ''
   id: sago35
 - name: 八田昌三（はったしょうぞう）
+  special_award: true
   github: hachi8833
   twitter: hachi8833
   image_url: "https://avatars.githubusercontent.com/u/4289625?v=4"

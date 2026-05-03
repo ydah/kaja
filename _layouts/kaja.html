@@ -16,7 +16,11 @@ layout: default
       {% for nominee in sorted_nominees %}
         <li class="kaja">
           <div class="inner-kaja">
+            {% if nominee.image_url %}
+            <img src="{{ nominee.image_url | escape }}" class="img" alt="{{ nominee.name }}">
+            {% else %}
             <img src="{{ '/assets/images/profile/' | append: nominee.image | append: '.png' | relative_url }}" class="img" alt="{{ nominee.name }}">
+            {% endif %}
 
             <h2 class="kaja-name">{{ nominee.name }}</h2>
 
@@ -28,6 +32,10 @@ layout: default
             <a href="https://twitter.com/{{ nominee.twitter }}" target="_blank" class="twitter link">{{ nominee.twitter }}</a>
             {% endif %}
 
+            {% if page.year == "2026" %}
+            <h3 class="hide">Kaja推薦理由</h3>
+            <ul class="motive hide">{{ nominee.reason_for | newline_to_br }}</ul>
+            {% else %}
             <p class="text hide">{{ nominee.profile | newline_to_br }}</p>
             <p class="text hide">{{ nominee.supplement | newline_to_br }}</p>
 
@@ -36,10 +44,13 @@ layout: default
 
             <h3 class="hide">Kaja投票理由</h3>
             <ul class="motive hide">{{ nominee.reason_for | newline_to_br }}</ul>
+            {% endif %}
 
             <h2 class="community-name">{{ nominee.community }}</h2>
             <p class="text">{{ nominee.description | newline_to_br }}</p>
+            {% unless page.year == "2026" %}
             <p class="text hide">{{ nominee.comment | newline_to_br }}</p>
+            {% endunless %}
           </div>
         </li>
       {% endfor %}

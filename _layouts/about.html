@@ -5,7 +5,7 @@ layout: default
 {% include sidebar.html %}
 
 <header class="about-header">
-  <h1 id="top">Ruby Kaja {{ page.year }}</h1>
+  <h1 id="top">RubyKaja {{ page.year }}</h1>
 </header>
 
 <section class="entry-contents contents">
@@ -16,7 +16,7 @@ layout: default
       <h2>{{ page.entry_link_label }}</h2>
     {% endif %}
   {% else %}
-    <h2><a href="{{ '/' | append: page.year | append: '/kaja' | relative_url }}">Ruby Kaja {{ page.year }} 受賞者</a></h2>
+    <h2><a href="{{ '/' | append: page.year | append: '/kaja' | relative_url }}">RubyKaja {{ page.year }} 受賞者</a></h2>
   {% endif %}
 </section>
 
@@ -48,7 +48,7 @@ layout: default
 {% endif %}
 
 <section class="committee-contents contents">
-  <h1 id="committee">Ruby Kaja {{ page.year }} 運営委員</h1>
+  <h1 id="committee">RubyKaja {{ page.year }} 運営委員</h1>
   <p>{{ page.committee_description | default: "日本 Ruby の会の活動の一環として有志によって運営されています。" }}</p>
   <ul>
     {% for member in page.committee %}

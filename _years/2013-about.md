@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Ruby Kaja 2013
+title: RubyKaja 2013
 body_id: About
 year: "2013"
 page_type: about

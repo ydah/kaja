@@ -1,6 +1,7 @@
 ---
 layout: about
 title: RubyKaja 2026
+description: RubyKaja 2026 の概要、参加コミュニティ、運営委員を紹介します。
 body_id: About
 year: "2026"
 page_type: about

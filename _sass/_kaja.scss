@@ -343,39 +343,6 @@ body {
     }
   }
 }
-.home-summary {
-  width:520px;
-  margin:28px auto 0;
-  padding:1.4em 1.8em 1.2em;
-  @include contents-bg;
-  @include box-shadow( 0 0 8px rgba( #000, 0.24 ) );
-  @include box-sizing( border-box );
-
-  h1 {
-    margin:0 0 0.45em;
-    color:#111;
-    font-size:28px;
-    line-height:1.2;
-  }
-
-  p {
-    margin:0 0 0.8em;
-    color:#333;
-    font-size:15px;
-    line-height:1.8;
-  }
-
-  p:last-child {
-    margin-bottom:0;
-  }
-
-  a {
-    color:#C20000;
-    font-size:16px;
-    font-weight:bold;
-    text-decoration:underline;
-  }
-}
 // ■■■■■■■■■■■■■■■■■■■■
 // #About
 // ■■■■■■■■■■■■■■■■■■■■

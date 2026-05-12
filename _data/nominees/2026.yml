@@ -34,6 +34,18 @@
     さらに、大阪Ruby会議04や関西Ruby会議08では、NOCチームの立ち上げから現在に至るまで中心的に尽力し、ネットワーク環境の整備を通じて地域Rubyイベントの安定した運営を支えてきました。参加者や登壇者が安心してイベントに集中できる環境を技術面から支え続けている点も、関西の地域Rubyコミュニティへの大きな貢献だと考えています。
   comment: ''
   id: uproad
+- name: Nobo
+  github: Hitoshi-Noborikawa
+  twitter: Nobo02149847
+  image_url: "https://github.com/Hitoshi-Noborikawa.png?size=256"
+  profile: ''
+  supplement: ''
+  community: Seto.rb
+  description: "Seto.rbは、愛知県瀬戸市でRubyを中心に、興味のある技術トピックを話す勉強会コミュニティです。"
+  judged_by: ''
+  reason_for: ''
+  comment: ''
+  id: nobo
 - name: 佐田 明弘（さだ あきひろ）
   special_award: true
   github: sada

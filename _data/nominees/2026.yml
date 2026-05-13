@@ -292,3 +292,20 @@
     コロナ禍で参加人数が激減した後も活動を通じてコミュニティに貢献し、参加メンバーが困っている場面で参考情報を共有したり、自身の困りごとや直面していることを率先して自己開示したりすることで、開かれた議論の場づくりにも貢献しています。
   comment: ''
   id: sanfrecce-osaka
+- name: yappu
+  github: yappu0
+  twitter: yappu_00
+  image_url: "https://www.gravatar.com/avatar/ff3f27147993281214e7b9254645e809?s=1200"
+  profile: ''
+  supplement: ''
+  community: Okayama.rb
+  description: "岡山でRubyやRuby on Railsを学び、意見交換や知見共有を行うコミュニティです。"
+  judged_by: ''
+  reason_for: |-
+    Okayama.rbの運営メンバーの一人として、コミュニティの継続的な活動を支えてきたため。
+
+    SonicGardenからの参加者として初回から欠かさず参加し、okayama.rbの場を支える常連として、参加者同士の交流や学びが生まれる場づくりに貢献してきました。また、Kaigi on Rails 2025ではKamalに関する発表を行うなど、地域コミュニティでの活動にとどまらず、外部カンファレンスでも自身の経験や知見を発信しています。
+
+    Kaigi on Railsでの登壇: https://www.sonicgarden.jp/join_us/blog_articles/kaigionrails2025
+  comment: ''
+  id: yappu

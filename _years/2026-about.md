@@ -27,7 +27,7 @@ communities:
     description: "主に出雲で活動する、Ruby好きや技術好きのエンジニアが集まるコミュニティです。"
   - name: Kashiwa.rb
     url: "https://kashiwarb.connpass.com/"
-    description: "柏界隈でRuby技術者たちが気軽に集まれるコミュニティです。月に1度程度のペースでLT会、もくもく会、オープンスペーステクノロジーなどいろいろ企画してやっています。プログラミング初学者からベテランRuby技術者まで一緒にわいわい勉強しましょう！"
+    description: "柏界隈のRuby技術者が集まり、LT会やもくもく会、オープンスペーステクノロジーなどを行うコミュニティです。"
   - name: Kyoto.rb
     url: "https://kyotorb.connpass.com/"
     description: "京都市周辺のRuby技術者が、ハック・発表・対話を通じて刺激しあう場を目指すコミュニティです。"

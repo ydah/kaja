@@ -312,3 +312,20 @@
     Kaigi on Railsでの登壇: https://www.sonicgarden.jp/join_us/blog_articles/kaigionrails2025
   comment: ''
   id: yappu
+- name: Shizuo Fujita
+  github: Watson1978
+  twitter: watson1978
+  image_url: "https://avatars.githubusercontent.com/u/199156"
+  profile: ''
+  supplement: ''
+  community: Kashiwa.rb
+  description: "柏界隈でRuby技術者たちが気軽に集まれるコミュニティです。月に1度程度のペースでLT会、もくもく会、オープンスペーステクノロジーなどいろいろ企画してやっています。プログラミング初学者からベテランRuby技術者まで一緒にわいわい勉強しましょう！"
+  judged_by: ''
+  reason_for: |-
+    長年にわたるOSS活動と開発を通じて、Rubyコミュニティに継続的に貢献し続けているだけでなく、Kashiwa.rbの初回から気さくに参加し、コミュニティの交流を支えてきたため。
+
+    2013年のRubyKaigi 2013で初めてお会いして以来、10数年以上にわたりOSSへの関与と開発を継続されており、特にRubyコミュニティでの活躍は目覚ましく、尊敬すべきOSS開発者の一人としてその活動を長く拝見してきました。これまでのアウトプットだけでも、推薦に十分値する方であることは多くの方に伝わると思います。
+
+    そんなベテランRuby技術者でありながら、2023年6月に発足したKashiwa.rbへも「近所で新しい地域Ruby勉強会が立ち上がったので」というフランクな理由で初回から参加し、メンバーとの交流を楽しんでいる点も大きな推薦理由です。その姿勢はKashiwa.rbというコミュニティにとって大きなプラスとなっています。
+  comment: ''
+  id: watson1978
